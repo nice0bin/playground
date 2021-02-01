@@ -1,0 +1,7 @@
+for(i=0;i<5000;i++){
+    d.rating.insertOne({
+        _id: i+11,
+        rating: Math.floor(Math.random()*5+1,
+        user_id: Math.floor(Math.random()*100)+1
+    })
+}
